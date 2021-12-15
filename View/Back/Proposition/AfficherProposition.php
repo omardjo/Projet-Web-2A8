@@ -1,10 +1,10 @@
 <?php
-include_once '/xampp/htdocs/TitanTech/Controller/PropositionC.php';
+include_once '../../../Controller/ProfilC.php';
 //define('','');
 
 //$listeProjets = $pC->getALLproposition();
-define('Ajout_URL', 'http://localhost/TitanTech/View/Front/Proposition/AjouterProposition.php');
-define('BASE_URL', 'http://localhost/TitanTech/View/Front/Template/template.html');
+define('Ajout_URL', 'AjouterProposition.php');
+define('BASE_URL', '../Template/'); // Template back
 
 if (isset($_POST['cherche'])) {
     $data = new propositionC();

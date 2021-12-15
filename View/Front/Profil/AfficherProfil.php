@@ -1,8 +1,8 @@
 <?php
-include_once '/xampp/htdocs/TitanTech/Controller/ProfilC.php';
+include_once '../../../'.'/Controller/ProfilC.php' ;
 $data = new profileC();
 $listeProfiles = $data->afficherprofile();
-define('BASE_URL', 'http://localhost/TitanTech/View/Front/Template/template.html');
+define('BASE_URL', '../Template/template.html'); 
 ?>
 
 <!DOCTYPE html>

@@ -1,5 +1,5 @@
 <?php
-define('BASE_URL', 'http://localhost/TitanTech/View/Front/Proposition/AfficherProposition.php');
+define('BASE_URL', 'AfficherProposition.php');
 //define('','');
 //define('','');
 
@@ -51,7 +51,7 @@ define('BASE_URL', 'http://localhost/TitanTech/View/Front/Proposition/AfficherPr
                         <form method="POST">
 
                             <?PHP
-                            require_once  '/xampp/htdocs/TitanTech/Controller/PropositionC.php';
+                            require_once  '../../../Controller/PropositionC.php';
                             if (isset($_POST['id'])) {
                                 $pC = new propositionC();
                                 $data = $pC->recuperer($_POST['id']);

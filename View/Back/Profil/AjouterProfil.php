@@ -1,9 +1,9 @@
 <?php
 $p = null;
 $error = "";
-include_once  '/xampp/htdocs/TitanTech/Controller/ProfilC.php';
-include_once '/xampp/htdocs/TitanTech/Model/Profil.php';
-define('BASE_URL', 'http://localhost/TitanTech/View/Front/Proposition/AfficherProfil.php');
+include_once  '../../../Controller/ProfilC.php';
+include_once '../../../Model/Profil.php';
+define('BASE_URL', 'AfficherProfil.php');
 if (isset($_POST['submit'])) {
 
     if (isset($_POST['prenom']) and isset($_POST['nom']) and isset($_POST['description'])) {

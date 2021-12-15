@@ -1,9 +1,9 @@
 <?php
 $p = null;
 $error = "";
-include_once  '/xampp/htdocs/TitanTech/Controller/PropositionC.php';
-include_once '/xampp/htdocs/TitanTech/Model/Proposition.php';
-define('BASE_URL', 'http://localhost/TitanTech/View/Front/Proposition/AfficherProposition.php');
+include_once  '../../../Controller/PropositionC.php';
+include_once '../../../Model/Proposition.php';
+define('BASE_URL', 'AfficherProposition.php');
 if (isset($_POST['submit'])) {
 
 	if (isset($_POST['title']) and isset($_POST['description']) and isset($_POST['TypeProjet']) and isset($_POST['competencies']) and isset($_POST['bud/h']) and isset($_POST['country'])) {

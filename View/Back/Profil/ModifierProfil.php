@@ -1,9 +1,9 @@
 <?php
 $p = null;
 $error = "";
-include_once  '/xampp/htdocs/TitanTech/Controller/ProfilC.php';
-include_once '/xampp/htdocs/TitanTech/Model/Profil.php';
-define('BASE_URL', 'http://localhost/TitanTech/View/Front/Profil/AfficherProfil.php');
+include_once  '../../../Controller/ProfilC.php';
+include_once '../../../Model/Profil.php';
+define('BASE_URL', 'AfficherProfil.php');
 ?>
 
 

@@ -1,5 +1,5 @@
 <?php
-define('BASE_URL', 'http://localhost/TitanTech/View/Front/Proposition/AfficherProposition.php');
+define('BASE_URL', 'AfficherProposition.php');
 //define('','');
 //define('','');
 
