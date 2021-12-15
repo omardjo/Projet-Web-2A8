@@ -1,0 +1,21 @@
+.container .aside {
+    width: 20%;
+    padding-left: 30px;
+
+    float: right;
+    font-style: italic;
+
+  }
+
+
+td, th {
+    display: block;
+}
+
+td[data-th]:before  {
+    content: attr(data-th);
+}
+
+
+
+ 
