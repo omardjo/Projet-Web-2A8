@@ -1,10 +1,10 @@
 <?php
-include_once '/xampp/htdocs/TitanTech/Controller/ProfilC.php';
+include_once '../../../Controller/ProfilC.php';
 //define('','');
 
 //$listeProjets = $pC->getALLproposition();
-define('Ajout_URL', 'http://localhost/TitanTech/View/Back/Profil/AjouterProfil.php');
-define('BASE_URL', 'http://localhost/TitanTech/View/Front/Template/template.html');
+define('Ajout_URL', 'AjouterProfil.php');
+define('BASE_URL', '../Template'); // Template Back
 
 
 

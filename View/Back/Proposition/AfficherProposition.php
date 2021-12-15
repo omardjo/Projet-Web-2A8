@@ -1,5 +1,5 @@
 <?php
-include_once '../../../Controller/ProfilC.php';
+include_once '../../../Controller/PropositionC.php';
 //define('','');
 
 //$listeProjets = $pC->getALLproposition();
