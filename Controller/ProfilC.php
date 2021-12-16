@@ -1,6 +1,6 @@
 <?php
-require_once   '/xampp/htdocs/TitanTech/config.php';
-require_once   '/xampp/htdocs/TitanTech/Model/Profil.php';
+require_once   '../config.php';
+require_once   '../Model/Profil.php';
 $profile = NULL;
 class profileC
 {

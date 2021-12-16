@@ -1,6 +1,6 @@
 <?php
-require_once   '/xampp/htdocs/TitanTech/config.php';
-require_once   '/xampp/htdocs/TitanTech/Model/Proposition.php';
+require_once   '../config.php';
+require_once   '../Model/Proposition.php';
 $proposition = NULL;
 class propositionC
 {
